@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Voice Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #chat-box {
+            width: 80%;
+            height: 400px;
+            border: 1px solid #ccc;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+        #chat-box div {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Voice Assistant Chatbot</h1>
+
+    <div id="chat-box"></div>
+    <button onclick="startListening()">Start Speaking</button>
+    <button onclick="stopListening()">Stop Speaking</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
